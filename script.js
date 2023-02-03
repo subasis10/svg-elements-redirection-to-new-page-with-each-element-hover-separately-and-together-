@@ -7,6 +7,7 @@ let svgArray = [
     r: "270",
     x: "-10",
     y: "515",
+    elementId: "postgres",
     circleClass: "normal",
     hrefUrl: "https://www.postgresql.org/",
   },
@@ -19,6 +20,7 @@ let svgArray = [
     x: "-670",
     y: "630",
     circleClass: "normal",
+    elementId: "googleAnalytics",
     hrefUrl: "https://analytics.google.com/",
   },
   {
@@ -30,7 +32,8 @@ let svgArray = [
     x: "-280",
     y: "-430",
     circleClass: "normal",
-    hrefUrl: "https://www.adobe.com/",
+    elementId: "googleCloud",
+    hrefUrl: "https://cloud.google.com/",
   },
 
   {
@@ -42,7 +45,8 @@ let svgArray = [
     x: "-1150",
     y: "60",
     circleClass: "normal",
-    hrefUrl: "https://www.django.com/",
+    elementId: "django",
+    hrefUrl: "https://www.djangoproject.com/",
   },
 
   {
@@ -78,17 +82,19 @@ let svgArray = [
     x: "140",
     y: "-605",
     circleClass: "normal",
-    hrefUrl: "https://www.php.com/",
+    elementId: "typescript",
+    hrefUrl: "https://www.typescript.com/",
   },
   {
     path: "./assets/MySQL_logo.svg",
     type: "image/svg+xml",
-    cx: "170",
-    cy: "150",
+    cx: "175",
+    cy: "130",
     r: "310",
     x: "-1300",
-    y: "-840",
+    y: "-845",
     circleClass: "normal",
+    elementId: "mySQL",
     hrefUrl: "https://www.mySQL.com/",
   },
   {
@@ -100,6 +106,7 @@ let svgArray = [
     x: "-1550",
     y: "-380",
     circleClass: "normal",
+    elementId: "docker",
     hrefUrl: "https://www.docker.com/",
   },
 
@@ -112,7 +119,8 @@ let svgArray = [
     x: "150",
     y: "-650",
     circleClass: "normal",
-    hrefUrl: "https://www.laravel.com/",
+    elementId: "laravel",
+    hrefUrl: "https://laravel.com/",
   },
   {
     path: "./assets/Git-logo.svg",
@@ -123,17 +131,19 @@ let svgArray = [
     x: "-900",
     y: "-650",
     circleClass: "normal",
-    hrefUrl: "https://www.git.com/",
+    elementId: "git",
+    hrefUrl: "https://git-scm.com/",
   },
   {
     path: "./assets/kubernetes.svg",
     type: "image/svg+xml",
     cx: "80",
-    cy: "-60",
+    cy: "-55",
     r: "324",
     x: "-1270",
-    y: "-120",
+    y: "-122",
     circleClass: "normal",
+    elementId: "kubernetes",
     hrefUrl: "https://kubernetes.io/",
   },
   {
@@ -145,6 +155,7 @@ let svgArray = [
     x: "-1250",
     y: "-580",
     circleClass: "normal",
+    elementId: "figma",
     hrefUrl: "https://www.figma.com/",
   },
   {
@@ -158,7 +169,7 @@ let svgArray = [
     y: "-730",
     circleClass: "normal",
     elementId: "adobePhotoshop",
-    hrefUrl: "https://www.adobephotoshop.com/",
+    hrefUrl: "https://www.adobe.com/",
   },
   {
     path: "./assets/nodejs-ar21.svg",
@@ -169,6 +180,7 @@ let svgArray = [
     x: "-120",
     y: "-930",
     circleClass: "normal",
+    elementId: "node",
     hrefUrl: "https://nodejs.org/en/",
   },
 
@@ -181,18 +193,20 @@ let svgArray = [
     x: "820",
     y: "-700",
     circleClass: "normal",
+    elementId: "power",
     hrefUrl: "https://powerbi.microsoft.com/en-au/",
   },
 
   {
     path: "./assets/swift-vertical.svg",
     type: "image/svg+xml",
-    cx: "-160",
-    cy: "405",
+    cx: "-164",
+    cy: "415",
     r: "64",
     x: "20",
     y: "-650",
     circleClass: "normal",
+    elementId: "swift",
     hrefUrl: "https://www.swift.com/",
   },
 
@@ -204,6 +218,7 @@ let svgArray = [
     r: "324",
     x: "-250",
     y: "290",
+    elementId: "gSuite",
     circleClass: "normal",
     hrefUrl: "https://www.gsuite.com/",
   },
@@ -217,6 +232,7 @@ let svgArray = [
     x: "-1400",
     y: "80",
     circleClass: "normal",
+    elementId: "wordpress",
     hrefUrl: "https://wordpress.com/",
   },
   {
@@ -228,6 +244,7 @@ let svgArray = [
     x: "600",
     y: "-940",
     circleClass: "normal",
+    elementId: "clickup",
     hrefUrl: "https://www.clickup.com/",
   },
   {
@@ -237,21 +254,23 @@ let svgArray = [
     cy: "130",
     r: "216",
     x: "-130",
-    y: "140",
+    y: "150",
     circleClass: "normal",
+    elementId: "android",
     hrefUrl: "https://www.android.com/",
   },
   {
     path: "./assets/danphelogo.svg",
     type: "image/svg+xml",
-    cx: "130",
-    cy: "160",
-    r: "240",
+    cx: "40",
+    cy: "20",
+    r: "64",
     x: "-330",
     y: "190",
     circleClass: "normal",
+    elementId: "Danphe",
     elementClass: "danphe",
-    hrefUrl: "https://www.danphe.com/",
+    hrefUrl: "https://danpheinnovations.com/",
   },
   {
     path: "./assets/Trello_logo.svg",
@@ -261,6 +280,7 @@ let svgArray = [
     r: "184",
     x: "340",
     y: "720",
+    elementId: "trello",
     circleClass: "normal",
     hrefUrl: "https://trello.com/",
   },
@@ -272,9 +292,10 @@ let svgArray = [
     cy: "20",
     r: "172",
     x: "-1650",
-    y: "-980",
+    y: "-970",
     circleClass: "normal",
-    hrefUrl: "https://www.danphe.com/",
+    elementId: "oracle",
+    hrefUrl: "https://www.oracle.com/",
   },
   {
     path: "./assets/cdnlogo.com_drupal.svg",
@@ -285,7 +306,8 @@ let svgArray = [
     x: "350",
     y: "-750",
     circleClass: "normal",
-    hrefUrl: "https://www.danphe.com/",
+    elementId: "cdnlogo",
+    hrefUrl: "https://www.drupal.org/",
   },
   {
     path: "./assets/Vue.js_Logo_2.svg",
@@ -296,6 +318,7 @@ let svgArray = [
     x: "400",
     y: "-620",
     circleClass: "normal",
+    elementId: "vuejs",
     hrefUrl: "https://vuejs.org/",
   },
   {
@@ -307,6 +330,7 @@ let svgArray = [
     x: "430",
     y: "-360",
     circleClass: "normal",
+    elementId: "amazon",
     hrefUrl: "https://aws.amazon.com/",
   },
   {
@@ -315,20 +339,22 @@ let svgArray = [
     cx: "290",
     cy: "100",
     r: "432",
-    x: "-1160",
+    x: "-1155",
     y: "-80",
     circleClass: "normal",
+    elementId: "elastic",
     hrefUrl: "https://www.elastic.co/",
   },
 
   {
-    path: "./assets/angular-icon.svg",
+    path: "./assets/angular-icon (1).svg",
     type: "image/svg+xml",
-    cx: "120",
-    cy: "120",
-    r: "216",
-    x: "-400",
-    y: "270",
+    cx: "16",
+    cy: "15",
+    r: "28",
+    x: "-900",
+    y: "-70",
+    elementId: "angular",
     circleClass: "normal",
     hrefUrl: "https://angular.io/",
   },
@@ -340,6 +366,7 @@ let svgArray = [
     r: "140",
     x: "-550",
     y: "0",
+    elementId: "javascript",
     circleClass: "normal",
     hrefUrl: "https://www.javascript.com/",
   },
@@ -352,7 +379,8 @@ let svgArray = [
     x: "120",
     y: "200",
     circleClass: "normal",
-    hrefUrl: "https://www.danphe.com/",
+    elementId: "java",
+    hrefUrl: "https://www.java.com/",
   },
   {
     path: "./assets/python-3 (2).svg",
@@ -363,19 +391,21 @@ let svgArray = [
     x: "-480",
     y: "-550",
     circleClass: "normal",
+    elementId: "python",
     hrefUrl: "https://www.python.org/",
   },
-  /* {
-    path: "./assets/reactjs-ar21.svg",
+  {
+    path: "./assets/reactjs-icon (1).svg",
     type: "image/svg+xml",
-    cx: "50",
-    cy: "30",
-    r: "60",
-    x: "390",
-    y: "-580",
+    cx: "15.2",
+    cy: "15",
+    r: "24",
+    x: "270",
+    y: "-760",
     circleClass: "normal",
+    elementId: "reactJS",
     hrefUrl: "https://reactjs.org/",
-  }, */
+  },
   {
     path: "./assets/salesforce-2.svg",
     type: "image/svg+xml",
@@ -385,6 +415,7 @@ let svgArray = [
     x: "790",
     y: "20",
     circleClass: "normal",
+    elementId: "salesforce",
     hrefUrl: "https://www.salesforce.com/",
   },
   {
@@ -395,6 +426,7 @@ let svgArray = [
     r: "378",
     x: "460",
     y: "-300",
+    elementId: "express",
     circleClass: "normal",
     hrefUrl: "https://expressjs.com/",
   },
@@ -449,8 +481,10 @@ function renderSVG() {
       element.setAttribute("y", svgItem.y);
 
       if (svgItem.elementClass != undefined) {
-        element.removeChild(element.firstChild);
+        /*  element.removeChild(element.firstChild); */
         element.setAttribute("class", svgItem.elementClass);
+
+        /*  loadimageAll(element); */
 
         element.addEventListener("mouseover", function () {
           for (var i = 0; i < svgArray.length; i++) {
@@ -482,7 +516,6 @@ function renderSVG() {
       });
 
       element.addEventListener("mouseout", function () {
-        console.log(this);
         restoreColor(this);
       });
     });
@@ -495,10 +528,120 @@ function loadimage(selectedSvg) {
   console.log(selectedSvg);
 
   var svgInnerElements = selectedSvg.getElementsByTagName("*");
-  console.log(svgInnerElements);
+  if (selectedSvg.id == "reactJS") {
+    console.log(svgInnerElements);
 
-  if (selectedSvg.id) {
-    /* if ((selectedSvg.idname = "adobeIllustrator")) { */
+    for (var i = 3; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+
+      var styles = window.getComputedStyle(element);
+      if (styles.stroke) {
+        element.style.originalStroke = styles.stroke;
+      }
+      if (styles.stroke !== "rgb(255, 255, 255)") {
+        element.style.stroke = "rgb(255, 255, 255 )";
+      }
+    }
+    var i = 2;
+    var element = svgInnerElements[i];
+    var styles = window.getComputedStyle(element);
+    if (styles.fill) {
+      element.style.originalFill = styles.fill;
+    }
+    if (styles.fill !== "rgb(255, 255, 255)") {
+      element.style.fill = "rgb(255, 255, 255)";
+    }
+  } else if (selectedSvg.id == "googleAnalytics") {
+    console.log(svgInnerElements);
+    for (var i = 1; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+
+      var styles = window.getComputedStyle(element);
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+      }
+      if (styles.fill !== "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(255, 255, 255)";
+      }
+    }
+  } else if (selectedSvg.id == "javascript" || selectedSvg.id == "PHP") {
+    console.log(svgInnerElements);
+    for (var i = 1; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+
+      var styles = window.getComputedStyle(element);
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+      }
+      if (styles.fill == "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(61, 61, 61)";
+      }
+      if (styles.fill !== "rgb(61, 61, 61)") {
+        element.style.fill = "rgb(255, 255, 255)";
+      }
+    }
+  } else if (selectedSvg.id == "adobePhotoshop") {
+    console.log(svgInnerElements);
+    for (var i = 2; i < svgInnerElements.length - 5; i++) {
+      var element = svgInnerElements[i];
+
+      var styles = window.getComputedStyle(element);
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+      }
+      if (styles.fill !== "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(61, 61, 61)";
+      }
+    }
+    for (var i = 7; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+
+      var styles = window.getComputedStyle(element);
+      if (styles.fill && styles.stroke) {
+        element.style.originalFill = styles.fill;
+        element.style.originalStroke = styles.stroke;
+      }
+      if (
+        styles.fill !== "rgb(255, 255, 255)" &&
+        styles.stroke !== "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(255, 255, 255)";
+        element.style.stroke = "rgb(255, 255, 255 )";
+      } else if (
+        styles.fill !== "rgb(255, 255, 255)" &&
+        styles.stroke == "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(255, 255 ,255)";
+        element.style.stroke = "rgb( 61, 61, 61)";
+      } else if (
+        styles.fill == "rgb(255, 255, 255)" &&
+        styles.stroke !== "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb( 61, 61, 61)";
+        element.style.stroke = "rgb( 255, 255 ,255 )";
+      } else {
+        element.style.fill = "rgb( 61, 61, 61)";
+        element.style.stroke = "rgb( 61, 61, 61)";
+      }
+    }
+    if (styles.fill) {
+      element.style.originalFill = styles.fill;
+      if (styles.fill !== "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(255, 255, 255)";
+      } else {
+        element.style.fill = "rgb( 61, 61, 61)";
+      }
+    } else if (styles.stroke) {
+      element.style.originalStroke = styles.stroke;
+      if (element.style.stroke !== "rgb(255, 255, 255)") {
+        element.style.stroke = "rgb(255, 255, 255)";
+      } else {
+        element.style.stroke = "rgb( 61, 61, 61)";
+      }
+    }
+  } else if (selectedSvg.id == "adobeIllustrator") {
     var i = 1;
     var element = svgInnerElements[i];
 
@@ -530,16 +673,16 @@ function loadimage(selectedSvg) {
         styles.stroke == "rgb(255, 255, 255)"
       ) {
         element.style.fill = "rgb(255, 255 ,255)";
-        element.style.stroke = "rgb(29,29,29)";
+        element.style.stroke = "rgb( 61, 61, 61)";
       } else if (
         styles.fill == "rgb(255, 255, 255)" &&
         styles.stroke !== "rgb(255, 255, 255)"
       ) {
-        element.style.fill = "rgb(29,29,29)";
+        element.style.fill = "rgb( 61, 61, 61)";
         element.style.stroke = "rgb( 255, 255 ,255 )";
       } else {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 29, 29, 29 )";
+        element.style.fill = "rgb( 61, 61, 61)";
+        element.style.stroke = "rgb( 61, 61, 61)";
       }
     }
     if (styles.fill) {
@@ -547,24 +690,368 @@ function loadimage(selectedSvg) {
       if (styles.fill !== "rgb(255, 255, 255)") {
         element.style.fill = "rgb(255, 255, 255)";
       } else {
-        element.style.fill = "rgb(29 , 29 , 29)";
+        element.style.fill = "rgb( 61, 61, 61)";
       }
     } else if (styles.stroke) {
       element.style.originalStroke = styles.stroke;
       if (element.style.stroke !== "rgb(255, 255, 255)") {
         element.style.stroke = "rgb(255, 255, 255)";
       } else {
-        element.style.stroke = "rgb(29, 29 , 29 )";
+        element.style.stroke = "rgb( 61, 61, 61)";
       }
-      /*  } */
+
       /*  innerloadimage(2); */
     } /* else innerloadimage(1); */
+  } else if (selectedSvg.id == "express" || selectedSvg.id == "gSuite") {
+    for (var i = 1; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+      var styles = window.getComputedStyle(element);
+      if (styles.fill && styles.stroke) {
+        element.style.originalFill = styles.fill;
+        element.style.originalStroke = styles.stroke;
+      }
+      if (
+        styles.fill !== "rgb(255, 255, 255)" &&
+        styles.stroke !== "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(255, 255, 255)";
+        element.style.stroke = "rgb(255, 255, 255 )";
+      } else if (
+        styles.fill !== "rgb(255, 255, 255)" &&
+        styles.stroke == "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(255, 255 ,255)";
+        element.style.stroke = "rgb(255,255,255)";
+      } else if (
+        styles.fill == "rgb(255, 255, 255)" &&
+        styles.stroke !== "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(25,255,255)";
+        element.style.stroke = "rgb( 255, 255 ,255 )";
+      } else {
+        element.style.fill = "rgb(255,255,255)";
+        element.style.stroke = "rgb( 255, 255, 255 )";
+      }
+
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+        if (styles.fill !== "rgb(255, 255, 255)") {
+          element.style.fill = "rgb(255, 255, 255)";
+        } else {
+          element.style.fill = "rgb(255 , 255 , 255)";
+        }
+      } else if (styles.stroke) {
+        element.style.originalStroke = styles.stroke;
+        if (element.style.stroke !== "rgb(255, 255, 255)") {
+          element.style.stroke = "rgb(255, 255, 255)";
+        } else {
+          element.style.stroke = "rgb(255, 255 , 255 )";
+        }
+      }
+    }
+  } else if (selectedSvg.id == "trello") {
+    console.log(svgInnerElements);
+    for (var i = 1; i < svgInnerElements.length - 7; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+      var styles = window.getComputedStyle(element);
+      if (styles.fill && styles.stroke) {
+        element.style.originalFill = styles.fill;
+        element.style.originalStroke = styles.stroke;
+      }
+      if (
+        styles.fill !== "rgb(255, 255, 255)" &&
+        styles.stroke !== "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(255, 255, 255)";
+        element.style.stroke = "rgb(255, 255, 255 )";
+      } else if (
+        styles.fill !== "rgb(255, 255, 255)" &&
+        styles.stroke == "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(255, 255 ,255)";
+        element.style.stroke = "rgb( 61, 61, 61)";
+      } else if (
+        styles.fill == "rgb(255, 255, 255)" &&
+        styles.stroke !== "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb( 61, 61, 61)";
+        element.style.stroke = "rgb( 255, 255 ,255 )";
+      } else {
+        element.style.fill = "rgb( 61, 61, 61)";
+        element.style.stroke = "rgb( 61, 61, 61)";
+      }
+    }
+    if (styles.fill) {
+      console.log(i);
+      element.style.originalFill = styles.fill;
+      console.log(element);
+      if (styles.fill !== "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(255, 255, 255)";
+      } else {
+        element.style.fill = "rgb( 61, 61, 61)";
+      }
+    } else if (styles.stroke) {
+      element.style.originalStroke = styles.stroke;
+      if (element.style.stroke !== "rgb(255, 255, 255)") {
+        element.style.stroke = "rgb(255, 255, 255)";
+      } else {
+        element.style.stroke = "rgb( 61, 61, 61)";
+      }
+    }
+
+    for (var i = 7; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+      var styles = window.getComputedStyle(element);
+      if (styles.fill && styles.stroke) {
+        element.style.originalFill = styles.fill;
+        element.style.originalStroke = styles.stroke;
+      }
+      if (
+        styles.fill !== "rgb(255, 255, 255)" &&
+        styles.stroke !== "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(255, 255, 255)";
+        element.style.stroke = "rgb(255, 255, 255 )";
+      } else if (
+        styles.fill !== "rgb(255, 255, 255)" &&
+        styles.stroke == "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(255, 255 ,255)";
+        element.style.stroke = "rgb( 61, 61, 61)";
+      } else if (
+        styles.fill == "rgb(255, 255, 255)" &&
+        styles.stroke !== "rgb(255, 255, 255)"
+      ) {
+        element.style.fill = "rgb(25,255,255)";
+        element.style.stroke = "rgb( 255, 255 ,255 )";
+      } else {
+        element.style.fill = "rgb(255,255,255)";
+        element.style.stroke = "rgb( 255, 255, 255 )";
+      }
+    }
+    if (styles.fill) {
+      element.style.originalFill = styles.fill;
+      if (styles.fill !== "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(255, 255, 255)";
+      } else {
+        element.style.fill = "rgb(255 , 255 , 255)";
+      }
+    } else if (styles.stroke) {
+      element.style.originalStroke = styles.stroke;
+      if (element.style.stroke !== "rgb(255, 255, 255)") {
+        element.style.stroke = "rgb(255, 255, 255)";
+      } else {
+        element.style.stroke = "rgb(255, 255 , 255 )";
+      }
+    }
   } else
   /* function innerloadimage(a) */
     for (var i = 1; i < svgInnerElements.length; i++) {
       var element = svgInnerElements[i];
       console.log(element);
       var styles = window.getComputedStyle(element);
+
+      if (styles.fill && styles.stroke) {
+        element.style.originalFill = styles.fill;
+        element.style.originalStroke = styles.stroke;
+        if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255, 255)";
+          element.style.stroke = "rgb(255, 255, 255 )";
+        } else if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke == "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255 ,255)";
+          element.style.stroke = "rgb( 61, 61, 61)";
+        } else if (
+          styles.fill == "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb( 61, 61, 61)";
+          element.style.stroke = "rgb( 255, 255 ,255 )";
+        } else {
+          element.style.fill = "rgb( 61, 61, 61)";
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
+      } else if (styles.fill) {
+        element.style.originalFill = styles.fill;
+        if (styles.fill !== "rgb(255, 255, 255)") {
+          element.style.fill = "rgb(255, 255, 255)";
+        } else {
+          element.style.fill = "rgb( 61, 61, 61)";
+        }
+      } else if (styles.stroke) {
+        console.log(i);
+        element.style.originalStroke = styles.stroke;
+        if (styles.stroke !== "rgb(255, 255, 255)") {
+          element.style.stroke = "rgb(255, 255, 255)";
+        } else {
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
+      }
+    }
+}
+
+function changeColor(selectedSvg) {
+  console.log(selectedSvg);
+
+  var svgInnerElements = selectedSvg.getElementsByTagName("*");
+
+  var i = 0;
+  var elementCircle = svgInnerElements[i];
+  elementCircle.style.fill = "rgb(229 ,229, 229)";
+
+  if (selectedSvg.id == "reactJS") {
+    console.log(svgInnerElements);
+    var i = 2;
+    var element = svgInnerElements[i];
+    element.style.fill = "rgb(97 ,219, 251)";
+
+    var i = 3;
+    var element = svgInnerElements[i];
+    element.style.stroke = "rgb(97 ,219, 251)";
+  } else if (selectedSvg.id == "googleAnalytics") {
+    console.log(svgInnerElements);
+    for (var i = 8; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+      if (element.style.originalFill && element.style.originalStroke) {
+        element.style.fill = "rgb( 61, 61, 61)";
+        element.style.stroke = "rgb( 61, 61, 61)";
+      } else if (element.style.originalFill) {
+        element.style.fill = "rgb( 61, 61, 61)";
+      } else if (element.style.originalStroke) {
+        element.style.stroke = "rgb( 61, 61, 61)";
+      }
+    }
+    for (var i = 1; i < svgInnerElements.length - 7; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+
+      if (element.style.originalFill && element.style.originalStroke) {
+        element.style.fill = element.style.originalFill;
+        element.style.stroke = element.style.originalStroke;
+      } else if (element.style.originalFill) {
+        element.style.fill = element.style.originalFill;
+      } else if (element.style.originalStroke) {
+        element.style.stroke = element.style.originalStroke;
+      }
+    }
+  } else if (selectedSvg.id == "express" || selectedSvg.id == "gSuite") {
+    console.log(selectedSvg);
+    for (var i = 1; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+
+      if (element.style.originalFill && element.style.originalStroke) {
+        element.style.fill = "rgb( 61, 61, 61)";
+        element.style.stroke = "rgb( 61, 61, 61)";
+      } else if (element.style.originalFill) {
+        element.style.fill = "rgb( 61, 61, 61)";
+      } else if (element.style.originalStroke) {
+        element.style.stroke = "rgb( 61, 61, 61)";
+      }
+    }
+  } else
+    for (var i = 1; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+
+      if (element.style.originalFill && element.style.originalStroke) {
+        element.style.fill = element.style.originalFill;
+        element.style.stroke = element.style.originalStroke;
+      } else if (element.style.originalFill) {
+        element.style.fill = element.style.originalFill;
+      } else if (element.style.originalStroke) {
+        element.style.stroke = element.style.originalStroke;
+      }
+    }
+  if (selectedSvg.id) {
+    selectedSvg.style.cursor = "pointer";
+  }
+}
+
+function restoreColor(selectedSvg) {
+  var svgInnerElements = selectedSvg.getElementsByTagName("*");
+  console.log(svgInnerElements);
+  if (selectedSvg.id == "reactJS") {
+    var i = 0;
+    var elementCircle = svgInnerElements[i];
+    elementCircle.style.fill = "rgb(61 ,61 ,61)";
+    var i = 2;
+    var elementCircle = svgInnerElements[i];
+    elementCircle.style.fill = "rgb(255, 255, 255)";
+    for (var i = 1; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+
+      var styles = window.getComputedStyle(element);
+      if (styles.stroke) {
+        element.style.originalStroke = styles.stroke;
+      }
+      if (styles.stroke !== "rgb(255, 255, 255)") {
+        element.style.stroke = "rgb(255, 255, 255 )";
+      }
+    }
+  } else if (selectedSvg.id == "googleAnalytics") {
+    var i = 0;
+    var elementCircle = svgInnerElements[i];
+    elementCircle.style.fill = "rgb(61 ,61 ,61)";
+    for (var i = 1; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+
+      var styles = window.getComputedStyle(element);
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+      }
+      if (styles.fill !== "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(255, 255, 255)";
+      }
+    }
+  } else if (selectedSvg.id == "javascript" || selectedSvg.id == "PHP") {
+    var i = 0;
+    var elementCircle = svgInnerElements[i];
+    elementCircle.style.fill = "rgb(61 ,61 ,61)";
+    console.log(svgInnerElements);
+    for (var i = 1; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+
+      var styles = window.getComputedStyle(element);
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+      }
+      if (styles.fill == "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(61, 61, 61)";
+      }
+      if (styles.fill !== "rgb(61, 61, 61)") {
+        element.style.fill = "rgb(255, 255, 255)";
+      }
+    }
+  } else if (selectedSvg.id == "adobePhotoshop") {
+    var i = 0;
+    var elementCircle = svgInnerElements[i];
+    elementCircle.style.fill = "rgb(61 ,61 ,61)";
+    for (var i = 2; i < svgInnerElements.length - 5; i++) {
+      var element = svgInnerElements[i];
+
+      var styles = window.getComputedStyle(element);
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+      }
+      if (styles.fill !== "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(61, 61, 61)";
+      }
+    }
+    for (var i = 7; i < svgInnerElements.length; i++) {
+      var element = svgInnerElements[i];
+      console.log(element);
+
+      var styles = window.getComputedStyle(element);
       if (styles.fill && styles.stroke) {
         element.style.originalFill = styles.fill;
         element.style.originalStroke = styles.stroke;
@@ -580,61 +1067,37 @@ function loadimage(selectedSvg) {
         styles.stroke == "rgb(255, 255, 255)"
       ) {
         element.style.fill = "rgb(255, 255 ,255)";
-        element.style.stroke = "rgb(29,29,29)";
+        element.style.stroke = "rgb( 61, 61, 61)";
       } else if (
         styles.fill == "rgb(255, 255, 255)" &&
         styles.stroke !== "rgb(255, 255, 255)"
       ) {
-        element.style.fill = "rgb(29,29,29)";
+        element.style.fill = "rgb( 61, 61, 61)";
         element.style.stroke = "rgb( 255, 255 ,255 )";
       } else {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 29, 29, 29 )";
+        element.style.fill = "rgb( 61, 61, 61)";
+        element.style.stroke = "rgb( 61, 61, 61)";
       }
     }
-  if (styles.fill) {
-    element.style.originalFill = styles.fill;
-    if (styles.fill !== "rgb(255, 255, 255)") {
-      element.style.fill = "rgb(255, 255, 255)";
-    } else {
-      element.style.fill = "rgb(29 , 29 , 29)";
+    if (styles.fill) {
+      element.style.originalFill = styles.fill;
+      if (styles.fill !== "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(255, 255, 255)";
+      } else {
+        element.style.fill = "rgb( 61, 61, 61)";
+      }
+    } else if (styles.stroke) {
+      element.style.originalStroke = styles.stroke;
+      if (element.style.stroke !== "rgb(255, 255, 255)") {
+        element.style.stroke = "rgb(255, 255, 255)";
+      } else {
+        element.style.stroke = "rgb( 61, 61, 61)";
+      }
     }
-  } else if (styles.stroke) {
-    element.style.originalStroke = styles.stroke;
-    if (element.style.stroke !== "rgb(255, 255, 255)") {
-      element.style.stroke = "rgb(255, 255, 255)";
-    } else {
-      element.style.stroke = "rgb(29, 29 , 29 )";
-    }
-  }
-}
-
-function changeColor(selectedSvg) {
-  console.log(selectedSvg);
-
-  var svgInnerElements = selectedSvg.getElementsByTagName("*");
-  console.log(svgInnerElements);
-
-  for (var i = 1; i < svgInnerElements.length; i++) {
-    var element = svgInnerElements[i];
-    console.log(element);
-
-    if (element.style.originalFill && element.style.originalStroke) {
-      element.style.fill = element.style.originalFill;
-      element.style.stroke = element.style.originalStroke;
-    } else if (element.style.originalFill) {
-      element.style.fill = element.style.originalFill;
-    } else if (element.style.originalStroke) {
-      element.style.stroke = element.style.originalStroke;
-    }
-  }
-}
-
-function restoreColor(selectedSvg) {
-  var svgInnerElements = selectedSvg.getElementsByTagName("*");
-  console.log(svgInnerElements);
-
-  if (selectedSvg.id) {
+  } else if (selectedSvg.id == "adobeIllustrator") {
+    var i = 0;
+    var elementCircle = svgInnerElements[i];
+    elementCircle.style.fill = "rgb(61 ,61 ,61)";
     var i = 1;
     var element = svgInnerElements[i];
 
@@ -652,90 +1115,93 @@ function restoreColor(selectedSvg) {
       if (styles.fill && styles.stroke) {
         element.style.originalFill = styles.fill;
         element.style.originalStroke = styles.stroke;
-      }
-      if (
-        styles.fill !== "rgb(255, 255, 255)" &&
-        styles.stroke !== "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(255, 255, 255)";
-        element.style.stroke = "rgb(255, 255, 255 )";
-      } else if (
-        styles.fill !== "rgb(255, 255, 255)" &&
-        styles.stroke == "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(255, 255 ,255)";
-        element.style.stroke = "rgb(29,29,29)";
-      } else if (
-        styles.fill == "rgb(255, 255, 255)" &&
-        styles.stroke !== "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 255, 255 ,255 )";
-      } else {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 29, 29, 29)";
+        if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255, 255)";
+          element.style.stroke = "rgb(255, 255, 255 )";
+        } else if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke == "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255 ,255)";
+          element.style.stroke = "rgb( 61, 61, 61)";
+        } else if (
+          styles.fill == "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb( 61, 61, 61)";
+          element.style.stroke = "rgb( 255, 255 ,255 )";
+        } else {
+          element.style.fill = "rgb( 61, 61, 61)";
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
+      } else if (styles.fill) {
+        element.style.originalFill = styles.fill;
+        if (styles.fill !== "rgb(255, 255, 255)") {
+          element.style.fill = "rgb(255, 255, 255)";
+        } else {
+          element.style.fill = "rgb( 61, 61, 61)";
+        }
+      } else if (styles.stroke) {
+        element.style.originalStroke = styles.stroke;
+        if (styles.stroke !== "rgb(255, 255, 255)") {
+          element.style.stroke = "rgb(255, 255, 255)";
+        } else {
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
       }
     }
-    if (styles.fill) {
-      element.style.originalFill = styles.fill;
-      if (styles.fill !== "rgb(255, 255, 255)") {
-        element.style.fill = "rgb(255, 255, 255)";
-      } else {
-        element.style.fill = "rgb(29, 29, 29)";
-      }
-    } else if (styles.stroke) {
-      element.style.originalStroke = styles.stroke;
-      if (element.style.stroke !== "rgb(255, 255, 255)") {
-        element.style.stroke = "rgb(255, 255, 255)";
-      } else {
-        element.style.stroke = "rgb(29, 29 , 29 )";
-      }
-    }
-  } else
+  } else {
+    var i = 0;
+    var elementCircles = svgInnerElements[i];
+    elementCircles.style.fill = "rgb(61 ,61 ,61)";
     for (var i = 1; i < svgInnerElements.length; i++) {
       var element = svgInnerElements[i];
 
       var styles = window.getComputedStyle(element);
+
       if (styles.fill && styles.stroke) {
         element.style.originalFill = styles.fill;
         element.style.originalStroke = styles.stroke;
+        if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255, 255)";
+          element.style.stroke = "rgb(255, 255, 255 )";
+        } else if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke == "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255 ,255)";
+          element.style.stroke = "rgb( 29, 29, 29 )";
+        } else if (
+          styles.fill == "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb( 29, 29, 29 )";
+          element.style.stroke = "rgb( 255, 255 ,255 )";
+        } else {
+          element.style.fill = "rgb( 61, 61, 61)";
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
+      } else if (styles.fill) {
+        element.style.originalFill = styles.fill;
+        if (styles.fill !== "rgb(255, 255, 255)") {
+          element.style.fill = "rgb(255, 255, 255)";
+        } else {
+          element.style.fill = "rgb( 61, 61, 61)";
+        }
+      } else if (styles.stroke) {
+        element.style.originalStroke = styles.stroke;
+        if (styles.stroke !== "rgb(255, 255, 255)") {
+          element.style.stroke = "rgb(255, 255, 255)";
+        } else {
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
       }
-      if (
-        styles.fill !== "rgb(255, 255, 255)" &&
-        styles.stroke !== "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(255, 255, 255)";
-        element.style.stroke = "rgb(255, 255, 255 )";
-      } else if (
-        styles.fill !== "rgb(255, 255, 255)" &&
-        styles.stroke == "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(255, 255 ,255)";
-        element.style.stroke = "rgb(29,29,29)";
-      } else if (
-        styles.fill == "rgb(255, 255, 255)" &&
-        styles.stroke !== "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 255, 255 ,255 )";
-      } else {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 29, 29, 29 )";
-      }
-    }
-  if (styles.fill) {
-    element.style.originalFill = styles.fill;
-    if (styles.fill !== "rgb(255, 255, 255)") {
-      element.style.fill = "rgb(255, 255, 255)";
-    } else {
-      element.style.fill = "rgb(29 , 29 , 29)";
-    }
-  } else if (styles.stroke) {
-    element.style.originalStroke = styles.stroke;
-    if (element.style.stroke !== "rgb(255, 255, 255)") {
-      element.style.stroke = "rgb(255, 255, 255)";
-    } else {
-      element.style.stroke = "rgb(29, 29 , 29 )";
     }
   }
 }
@@ -748,136 +1214,362 @@ function onClick(selectedSvg) {
   for (var i = num; i <= num; i++) {
     console.log(i);
 
-    /*  location.href = svgArray[i].hrefUrl; */
     window.open(selectedSvg.getAttribute("hrefUrl"), "_blank");
   }
   num++;
   return num;
 }
 
+/* function loadimageAll(selectedSvg) {
+  var svgInnerElements = selectedSvg.getElementsByTagName("*");
+  console.log(svgInnerElements);
+  for (var i = 1; i < svgInnerElements.length; i++) {
+    var element = svgInnerElements[i];
+    element.style.fill = "rgb(0 , 0 ,0)";
+  }
+} */
 function changeColorAll(selectedSvg) {
   var svgInnerElements = selectedSvg.getElementsByTagName("*");
-  for (var i = 0; i < svgInnerElements.length; i++) {
-    var element = svgInnerElements[i];
-    console.log(element);
 
-    if (element.style.originalFill && element.style.originalStroke) {
-      element.style.fill = element.style.originalFill;
-      element.style.stroke = element.style.originalStroke;
-    } else if (element.style.originalFill) {
-      element.style.fill = element.style.originalFill;
-    } else if (element.style.originalStroke) {
-      element.style.stroke = element.style.originalStroke;
-    }
+  if (selectedSvg.id == "Danphe") {
+    console.log(svgInnerElements);
+    var i = 0;
+    var elementCircles = svgInnerElements[i];
+    elementCircles.style.opacity = "0.01";
+  } else {
+    var i = 0;
+    var elementCircle = svgInnerElements[i];
+    elementCircle.style.fill = "rgb(229 ,229, 229)";
+
+    if (selectedSvg.id == "reactJS") {
+      console.log(svgInnerElements);
+      var i = 2;
+      var element = svgInnerElements[i];
+      element.style.fill = "rgb(97 ,219, 251)";
+
+      var i = 3;
+      var element = svgInnerElements[i];
+      element.style.stroke = "rgb(97 ,219, 251)";
+    } else if (selectedSvg.id == "express" || selectedSvg.id == "gSuite") {
+      console.log(selectedSvg);
+      for (var i = 1; i < svgInnerElements.length; i++) {
+        var element = svgInnerElements[i];
+        console.log(element);
+
+        if (element.style.originalFill && element.style.originalStroke) {
+          element.style.fill = "rgb( 61, 61, 61)";
+          element.style.stroke = "rgb( 61, 61, 61)";
+        } else if (element.style.originalFill) {
+          element.style.fill = "rgb( 61, 61, 61)";
+        } else if (element.style.originalStroke) {
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
+      }
+    } else if (selectedSvg.id == "googleAnalytics") {
+      console.log(svgInnerElements);
+      for (var i = 8; i < svgInnerElements.length; i++) {
+        var element = svgInnerElements[i];
+        if (element.style.originalFill && element.style.originalStroke) {
+          element.style.fill = "rgb( 61, 61, 61)";
+          element.style.stroke = "rgb( 61, 61, 61)";
+        } else if (element.style.originalFill) {
+          element.style.fill = "rgb( 61, 61, 61)";
+        } else if (element.style.originalStroke) {
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
+      }
+      for (var i = 1; i < svgInnerElements.length - 7; i++) {
+        var element = svgInnerElements[i];
+        console.log(element);
+
+        if (element.style.originalFill && element.style.originalStroke) {
+          element.style.fill = element.style.originalFill;
+          element.style.stroke = element.style.originalStroke;
+        } else if (element.style.originalFill) {
+          element.style.fill = element.style.originalFill;
+        } else if (element.style.originalStroke) {
+          element.style.stroke = element.style.originalStroke;
+        }
+      }
+    } else
+      for (var i = 0; i < svgInnerElements.length; i++) {
+        var element = svgInnerElements[i];
+        console.log(element);
+
+        if (element.style.originalFill && element.style.originalStroke) {
+          element.style.fill = element.style.originalFill;
+          element.style.stroke = element.style.originalStroke;
+        } else if (element.style.originalFill) {
+          element.style.fill = element.style.originalFill;
+        } else if (element.style.originalStroke) {
+          element.style.stroke = element.style.originalStroke;
+        }
+      }
   }
 }
-
 function restoreColorAll(selectedSvg) {
   console.log(selectedSvg);
+
   var svgInnerElements = selectedSvg.getElementsByTagName("*");
+  if (selectedSvg.id == "Danphe") {
+    var i = 0;
+    var elementCircles = svgInnerElements[i];
+    elementCircles.style.opacity = "0.01";
+  } else {
+    var i = 0;
+    var elementCircles = svgInnerElements[i];
+    elementCircles.style.fill = "rgb( 61, 61, 61)";
 
-  if (selectedSvg.id) {
-    var i = 1;
-    var element = svgInnerElements[i];
-
-    var styles = window.getComputedStyle(element);
-    if (styles.fill) {
-      element.style.originalFill = styles.fill;
-    }
-    if (styles.fill !== "rgb(255, 255, 255)") {
-      element.style.fill = "rgb(61, 61, 62)";
-    }
-    for (var i = 2; i < svgInnerElements.length; i++) {
+    if (selectedSvg.id == "reactJS") {
+      var i = 0;
+      var elementCircle = svgInnerElements[i];
+      elementCircle.style.fill = "rgb(61 ,61 ,61)";
+      var i = 2;
       var element = svgInnerElements[i];
-
-      var styles = window.getComputedStyle(element);
-      if (styles.fill && styles.stroke) {
-        element.style.originalFill = styles.fill;
-        element.style.originalStroke = styles.stroke;
-      }
-      if (
-        styles.fill !== "rgb(255, 255, 255)" &&
-        styles.stroke !== "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(255, 255, 255)";
-        element.style.stroke = "rgb(255, 255, 255 )";
-      } else if (
-        styles.fill !== "rgb(255, 255, 255)" &&
-        styles.stroke == "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(255, 255 ,255)";
-        element.style.stroke = "rgb(29,29,29)";
-      } else if (
-        styles.fill == "rgb(255, 255, 255)" &&
-        styles.stroke !== "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 255, 255 ,255 )";
-      } else {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 29, 29, 29 )";
-      }
-    }
-    if (styles.fill) {
-      element.style.originalFill = styles.fill;
-      if (styles.fill !== "rgb(255, 255, 255)") {
-        element.style.fill = "rgb(255, 255, 255)";
-      } else {
-        element.style.fill = "rgb(29 , 29 , 29)";
-      }
-    } else if (styles.stroke) {
-      element.style.originalStroke = styles.stroke;
-      if (element.style.stroke !== "rgb(255, 255, 255)") {
-        element.style.stroke = "rgb(255, 255, 255)";
-      } else {
-        element.style.stroke = "rgb(29, 29, 29 )";
-      }
-    }
-  } else
-    for (var i = 1; i < svgInnerElements.length; i++) {
-      var element = svgInnerElements[i];
-
-      var styles = window.getComputedStyle(element);
-      if (styles.fill && styles.stroke) {
-        element.style.originalFill = styles.fill;
-        element.style.originalStroke = styles.stroke;
-      }
-      if (
-        styles.fill !== "rgb(255, 255, 255)" &&
-        styles.stroke !== "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(255, 255, 255)";
-        element.style.stroke = "rgb(255, 255, 255 )";
-      } else if (
-        styles.fill !== "rgb(255, 255, 255)" &&
-        styles.stroke == "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(255, 255 ,255)";
-        element.style.stroke = "rgb(29,29,29)";
-      } else if (
-        styles.fill == "rgb(255, 255, 255)" &&
-        styles.stroke !== "rgb(255, 255, 255)"
-      ) {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 255, 255 ,255 )";
-      } else {
-        element.style.fill = "rgb(29,29,29)";
-        element.style.stroke = "rgb( 29, 29, 29 )";
-      }
-    }
-  if (styles.fill) {
-    element.style.originalFill = styles.fill;
-    if (styles.fill !== "rgb(255, 255, 255)") {
       element.style.fill = "rgb(255, 255, 255)";
-    } else {
-      element.style.fill = "rgb(29 , 29 , 29)";
-    }
-  } else if (styles.stroke) {
-    element.style.originalStroke = styles.stroke;
-    if (element.style.stroke !== "rgb(255, 255, 255)") {
-      element.style.stroke = "rgb(255, 255, 255)";
-    } else {
-      element.style.stroke = "rgb(29, 29 , 29 )";
-    }
+      for (var i = 1; i < svgInnerElements.length; i++) {
+        var element = svgInnerElements[i];
+        console.log(element);
+
+        var styles = window.getComputedStyle(element);
+        if (styles.stroke) {
+          element.style.originalStroke = styles.stroke;
+        }
+        if (styles.stroke !== "rgb(255, 255, 255)") {
+          element.style.stroke = "rgb(255, 255, 255 )";
+        }
+      }
+    } else if (selectedSvg.id == "javascript" || selectedSvg.id == "PHP") {
+      var i = 0;
+      var elementCircle = svgInnerElements[i];
+      elementCircle.style.fill = "rgb(61 ,61 ,61)";
+      console.log(svgInnerElements);
+      for (var i = 1; i < svgInnerElements.length; i++) {
+        var element = svgInnerElements[i];
+
+        var styles = window.getComputedStyle(element);
+        if (styles.fill) {
+          element.style.originalFill = styles.fill;
+        }
+        if (styles.fill == "rgb(255, 255, 255)") {
+          element.style.fill = "rgb(61, 61, 61)";
+        }
+        if (styles.fill !== "rgb(61, 61, 61)") {
+          element.style.fill = "rgb(255, 255, 255)";
+        }
+      }
+    } else if (selectedSvg.id == "adobePhotoshop") {
+      for (var i = 2; i < svgInnerElements.length - 5; i++) {
+        var element = svgInnerElements[i];
+
+        var styles = window.getComputedStyle(element);
+        if (styles.fill) {
+          element.style.originalFill = styles.fill;
+        }
+        if (styles.fill !== "rgb(255, 255, 255)") {
+          element.style.fill = "rgb(61, 61, 61)";
+        }
+      }
+      for (var i = 7; i < svgInnerElements.length; i++) {
+        var element = svgInnerElements[i];
+        console.log(element);
+
+        var styles = window.getComputedStyle(element);
+        if (styles.fill && styles.stroke) {
+          element.style.originalFill = styles.fill;
+          element.style.originalStroke = styles.stroke;
+        }
+        if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255, 255)";
+          element.style.stroke = "rgb(255, 255, 255 )";
+        } else if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke == "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255 ,255)";
+          element.style.stroke = "rgb( 61, 61, 61)";
+        } else if (
+          styles.fill == "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb( 61, 61, 61)";
+          element.style.stroke = "rgb( 255, 255 ,255 )";
+        } else {
+          element.style.fill = "rgb( 61, 61, 61)";
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
+      }
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+        if (styles.fill !== "rgb(255, 255, 255)") {
+          element.style.fill = "rgb(255, 255, 255)";
+        } else {
+          element.style.fill = "rgb( 61, 61, 61)";
+        }
+      } else if (styles.stroke) {
+        element.style.originalStroke = styles.stroke;
+        if (element.style.stroke !== "rgb(255, 255, 255)") {
+          element.style.stroke = "rgb(255, 255, 255)";
+        } else {
+          element.style.stroke = "rgb( 61, 61, 61)";
+        }
+      }
+    } else if (selectedSvg.id == "adobeIllustrator") {
+      var i = 1;
+      var element = svgInnerElements[i];
+
+      var styles = window.getComputedStyle(element);
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+      }
+      if (styles.fill !== "rgb(255, 255, 255)") {
+        element.style.fill = "rgb(61, 61, 61)";
+      }
+      for (var i = 2; i < svgInnerElements.length; i++) {
+        var element = svgInnerElements[i];
+
+        var styles = window.getComputedStyle(element);
+
+        if (styles.fill && styles.stroke) {
+          element.style.originalFill = styles.fill;
+          element.style.originalStroke = styles.stroke;
+          if (
+            styles.fill !== "rgb(255, 255, 255)" &&
+            styles.stroke !== "rgb(255, 255, 255)"
+          ) {
+            element.style.fill = "rgb(255, 255, 255)";
+            element.style.stroke = "rgb(255, 255, 255 )";
+          } else if (
+            styles.fill !== "rgb(255, 255, 255)" &&
+            styles.stroke == "rgb(255, 255, 255)"
+          ) {
+            element.style.fill = "rgb(255, 255 ,255)";
+            element.style.stroke = "rgb( 61, 61, 61)";
+          } else if (
+            styles.fill == "rgb(255, 255, 255)" &&
+            styles.stroke !== "rgb(255, 255, 255)"
+          ) {
+            element.style.fill = "rgb( 61, 61, 61)";
+            element.style.stroke = "rgb( 255, 255 ,255 )";
+          } else {
+            element.style.fill = "rgb( 61, 61, 61)";
+            element.style.stroke = "rgb( 61, 61, 61)";
+          }
+        } else if (styles.fill) {
+          console.log(i);
+          element.style.originalFill = styles.fill;
+          if (styles.fill !== "rgb(255, 255, 255)") {
+            element.style.fill = "rgb(255, 255, 255)";
+          } else {
+            element.style.fill = "rgb( 61, 61, 61)";
+          }
+        } else if (styles.stroke) {
+          console.log(i);
+          element.style.originalStroke = styles.stroke;
+          if (styles.stroke !== "rgb(255, 255, 255)") {
+            element.style.stroke = "rgb(255, 255, 255)";
+          } else {
+            element.style.stroke = "rgb( 61, 61, 61)";
+          }
+        }
+      }
+    } else if (selectedSvg.id == "express" || selectedSvg.id == "gSuite") {
+      for (var i = 1; i < svgInnerElements.length; i++) {
+        var element = svgInnerElements[i];
+        console.log(element);
+        var styles = window.getComputedStyle(element);
+        if (styles.fill && styles.stroke) {
+          element.style.originalFill = styles.fill;
+          element.style.originalStroke = styles.stroke;
+        }
+        if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255, 255)";
+          element.style.stroke = "rgb(255, 255, 255 )";
+        } else if (
+          styles.fill !== "rgb(255, 255, 255)" &&
+          styles.stroke == "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(255, 255 ,255)";
+          element.style.stroke = "rgb(255,255,255)";
+        } else if (
+          styles.fill == "rgb(255, 255, 255)" &&
+          styles.stroke !== "rgb(255, 255, 255)"
+        ) {
+          element.style.fill = "rgb(25,255,255)";
+          element.style.stroke = "rgb( 255, 255 ,255 )";
+        } else {
+          element.style.fill = "rgb(255,255,255)";
+          element.style.stroke = "rgb( 255, 255, 255 )";
+        }
+      }
+      if (styles.fill) {
+        element.style.originalFill = styles.fill;
+        if (styles.fill !== "rgb(255, 255, 255)") {
+          element.style.fill = "rgb(255, 255, 255)";
+        } else {
+          element.style.fill = "rgb(255 , 255 , 255)";
+        }
+      } else if (styles.stroke) {
+        element.style.originalStroke = styles.stroke;
+        if (element.style.stroke !== "rgb(255, 255, 255)") {
+          element.style.stroke = "rgb(255, 255, 255)";
+        } else {
+          element.style.stroke = "rgb(255, 255 , 255 )";
+        }
+      }
+    } else
+      for (var i = 1; i < svgInnerElements.length; i++) {
+        var element = svgInnerElements[i];
+
+        var styles = window.getComputedStyle(element);
+        if (styles.fill && styles.stroke) {
+          element.style.originalFill = styles.fill;
+          element.style.originalStroke = styles.stroke;
+          if (
+            styles.fill !== "rgb(255, 255, 255)" &&
+            styles.stroke !== "rgb(255, 255, 255)"
+          ) {
+            element.style.fill = "rgb(255, 255, 255)";
+            element.style.stroke = "rgb(255, 255, 255 )";
+          } else if (
+            styles.fill !== "rgb(255, 255, 255)" &&
+            styles.stroke == "rgb(255, 255, 255)"
+          ) {
+            element.style.fill = "rgb(255, 255 ,255)";
+            element.style.stroke = "rgb( 61, 61, 61)";
+          } else if (
+            styles.fill == "rgb(255, 255, 255)" &&
+            styles.stroke !== "rgb(255, 255, 255)"
+          ) {
+            element.style.fill = "rgb( 61, 61, 61)";
+            element.style.stroke = "rgb( 255, 255 ,255 )";
+          } else {
+            element.style.fill = "rgb( 61, 61, 61)";
+            element.style.stroke = "rgb( 61, 61, 61)";
+          }
+        } else if (styles.fill) {
+          console.log(i);
+          element.style.originalFill = styles.fill;
+          if (styles.fill !== "rgb(255, 255, 255)") {
+            element.style.fill = "rgb(255, 255, 255)";
+          } else {
+            element.style.fill = "rgb( 61, 61, 61)";
+          }
+        } else if (styles.stroke) {
+          console.log(i);
+          element.style.originalStroke = styles.stroke;
+          if (styles.stroke !== "rgb(255, 255, 255)") {
+            element.style.stroke = "rgb(255, 255, 255)";
+          } else {
+            element.style.stroke = "rgb( 61, 61, 61)";
+          }
+        }
+      }
   }
 }
